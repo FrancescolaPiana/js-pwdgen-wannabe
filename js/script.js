@@ -13,9 +13,11 @@ eta = prompt('Scrivi la tua età');
 
 password = nome + cognome + colore + eta;
 
-console.log(password);
 
-document.getElementById('psw') = password;
+console.log( password);
+console.log(typeof password);
+
+document.getElementById('psw').innerHTML = password;
 
 // ntt =  ${password};
 
